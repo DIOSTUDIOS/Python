@@ -1,0 +1,12 @@
+DELETE	C:\Users\王志强\Documents\WeChat Files\wl19910425wl\Msg
+DELETE	C:\Users\王志强\Documents\WeChat Files\wl19910425wl\FileStorage\Image
+DELETE	C:\Users\王志强\Documents\WeChat Files\wl19910425wl\FileStorage\Video
+DELETE	C:\Users\王志强\Documents\WeChat Files\wl19910425wl\FileStorage\File
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_3a4kcp9rdhso21\Msg
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_3a4kcp9rdhso21\FileStorage\Image
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_3a4kcp9rdhso21\FileStorage\Video
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_3a4kcp9rdhso21\FileStorage\File
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_jek4tsscf4yk12\Msg
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_jek4tsscf4yk12\FileStorage\Image
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_jek4tsscf4yk12\FileStorage\Video
+DELETE	C:\Users\王志强\Documents\WeChat Files\wxid_jek4tsscf4yk12\FileStorage\File

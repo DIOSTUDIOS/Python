@@ -1,0 +1,1 @@
+D:\WeChatCleaner\venv\Scripts\python.exe D:\WeChatCleaner\main.py

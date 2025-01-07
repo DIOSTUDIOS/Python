@@ -1,0 +1,16 @@
+实现功能：
+
+关机自动关闭微信，并清理聊天记录，收到的文件、图片、视频，logs.txt 用于记录删除的文件
+
+此脚本将会永久删除文件，无法恢复！！！
+-----------------------------------------------------------
+
+使用方法：
+
+1、将文件解压后放入 D 盘
+
+2、将 微信清理.bat 放置如下目录：C:\WINDOWS\System32\GroupPolicy\Machine\Scripts\Shutdown
+
+3、如果想放入其他盘，使用记事本打开 微信清理.bat ，需将盘符 D 改成其他盘符，如 E:\WeChatCleaner\venv\Scripts\python.exe E:\WeChatCleaner\main.py
+
+4、如果想放入别的文件夹中，则将 D 改成文件夹名即可，如 D:\清理程序\WeChatCleaner\venv\Scripts\python.exe D:\清理程序\WeChatCleaner\main.py
