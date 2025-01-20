@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/png" sizes="32x32">
+    <!-- All CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+</head>
+<body>
+    <main class="main-content-area">
+        <div class="job-categories-area bg-color2 pt-100 pb-100 clearfix">
+            <div class="container">
+                <div class="cat-list-items">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_ckmx') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_01.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            出库明细
+                                            <span>热力经营报表出库明细</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_cpmx') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_02.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            产品明细
+                                            <span>热力经营报表产品明细</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_ddmx') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_03.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            订单明细
+                                            <span>热力经营报表订单明细</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_htmx') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_04.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            合同明细
+                                            <span>热力经营报表合同明细</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_zpsr') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_05.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            装配收入
+                                            <span>热力经营报表装配收入</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_yflr') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_06.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            研发利润
+                                            <span>热力经营报表研发利润</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_hccb') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_07.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            耗材成本
+                                            <span>热力经营报表耗材成本</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_lrtz') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_08.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            利润调整
+                                            <span>热力经营报表利润调整</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_fpsr') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_09.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            分配收入
+                                            <span>热力经营报表分配收入</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_lrmx') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_10.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            利润明细
+                                            <span>热力经营报表利润明细</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_lrhz') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_11.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            利润汇总
+                                            <span>热力经营报表利润汇总</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_hthklr') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_12.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            合同回款利润统计
+                                            <span>热力经营报表合同回款利润统计</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ url_for('exporterPage.export_tzclcb') }}" target="_blank">
+                                <div class="single-category text-center" data-aos="flip-up">
+                                    <div class="cat-icon">
+                                        <img src="{{ url_for('static', filename='images/report_13.png') }}" alt="image" />
+                                    </div>
+                                    <div class="cat-details">
+                                        <h4>
+                                            调整材料成本
+                                            <span>热力经营报表调整材料成本</span>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom-area clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer-bottom text-center">
+                            <p>Copyright &copy; 2025.Powered By 王志强.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="preloader" id="preloader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/modules/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/owl.carousel.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/magnific.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/select2.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modules/slimmenu.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

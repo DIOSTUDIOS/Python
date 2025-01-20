@@ -1,0 +1,567 @@
+.comment-form-area,
+.section-title h3:before,
+.main-content-area,
+.section-title h3:before {
+    left: 0;
+}
+
+.comment-form-area,
+.section-title h3:after,
+.main-content-area,
+.section-title h3:after {
+    left: 16%;
+}
+
+.comment-form-area .comment-form input[type=text], .comment-form-area .contact-form input[type=text], .main-content-area .comment-form input[type=text], .main-content-area .contact-form input[type=text] {
+    width: 49%;
+    padding: 6px 28px 6px 12px;
+    padding: .375rem 1.75rem .375rem .75rem;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+    .comment-form-area .comment-form input[type=text], .comment-form-area .contact-form input[type=text], .main-content-area .comment-form input[type=text], .main-content-area .contact-form input[type=text] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.comment-form-area .comment-form input[type=text]:focus, .comment-form-area .contact-form input[type=text]:focus, .main-content-area .comment-form input[type=text]:focus, .main-content-area .contact-form input[type=text]:focus {
+    outline: 0;
+}
+
+.comment-form-area .comment-form textarea, .comment-form-area .contact-form textarea, .main-content-area .comment-form textarea, .main-content-area .contact-form textarea {
+    width: 100%;
+    height: 160px;
+    padding: 15px 12px;
+    margin-top: 15px;
+    border: 1px solid #D9D9D9;
+    color: #666666;
+    border-radius: 4px;
+}
+
+.comment-form-area .comment-form textarea:focus, .comment-form-area .contact-form textarea:focus, .main-content-area .comment-form textarea:focus, .main-content-area .contact-form textarea:focus {
+    outline: 0;
+}
+
+@media (max-width: 767px) {
+    .how-work-area, .job-post-area, .apps-download-area, .job-browse-area, .job-categories-area, .testimonial-area, .blog-area, .client-area, .footer-area {
+        padding: 50px 0;
+    }
+}
+
+.job-categories-area .cat-list-items {
+    margin-top: -30px;
+}
+
+.job-categories-area .single-category {
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #EEEFF1;
+    -webkit-box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all .4s ease !important;
+    -o-transition: all .4s ease !important;
+    transition: all .4s ease !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.job-categories-area .single-category .cat-icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.job-categories-area .single-category:hover {
+    background-color: #27ae60;
+}
+
+.job-categories-area .single-category:hover .cat-details * {
+    color: #fff;
+}
+
+.job-categories-area .cat-details {
+    margin-top: 15px;
+    visibility: visible;
+    position: relative;
+}
+
+.job-categories-area .cat-details h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.job-categories-area .cat-details h4 a {
+    color: #333333;
+}
+
+.job-categories-area .cat-details h4 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.bg-color2 {
+    background: #F6F7F9;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+    .pt-100 {
+        padding-top: 50px;
+    }
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .section-title {
+        margin-bottom: 30px;
+    }
+}
+
+.section-title span {
+    font-size: 14px;
+    color: #27ae60;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 5px;
+    display: block;
+    background: #27ae60;
+    margin-top: 15px;
+    position: relative;
+}
+
+.section-title .line:before {
+    width: 20px;
+    height: 5px;
+    content: "";
+    background: #333333;
+    position: absolute;
+    right: 0;
+}
+
+.section-title h2, .section-title h3, .sidebar-title h2, .sidebar-title h3 {
+    font-size: 45px;
+    color: #333333;
+    margin: 0;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .section-title h2, .section-title h3, .sidebar-title h2, .sidebar-title h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section-title h2, .section-title h3, .sidebar-title h2, .sidebar-title h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-area .section-title {
+        margin-bottom: 15px;
+    }
+}
+
+.section-title h3 {
+    font-size: 22px;
+}
+
+.section-title h3:before {
+    left: 0;
+}
+
+.section-title h3:after {
+    left: 25%;
+}
+
+.comments-area .section-title h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.comment-form-area .section-title h3:before, .main-content-area .section-title h3:before {
+    left: 0;
+}
+
+.comment-form-area .section-title h3:after, .main-content-area .section-title h3:after {
+    left: 16%;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 5px;
+    display: block;
+    background: #27ae60;
+    margin-top: 15px;
+    position: relative;
+}
+
+.section-title .line:before {
+    width: 20px;
+    height: 5px;
+    content: "";
+    background: #333333;
+    position: absolute;
+    right: 0;
+}
+
+.job-categories-area .cat-list-items {
+    margin-top: -30px;
+}
+
+.job-categories-area .single-category {
+    background: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border: 1px solid #EEEFF1;
+    -webkit-box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all .4s ease !important;
+    -o-transition: all .4s ease !important;
+    transition: all .4s ease !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.job-categories-area .single-category .cat-icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.job-categories-area .single-category:hover {
+    background-color: #27ae60;
+}
+
+.job-categories-area .single-category:hover .cat-details * {
+    color: #fff;
+}
+
+.job-categories-area .single-category .cat-icon img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+.job-categories-area .single-category:hover .cat-details * {
+    color: #fff;
+}
+
+.job-categories-area .cat-details {
+    margin-top: 15px;
+    visibility: visible;
+    position: relative;
+}
+
+.job-categories-area .cat-details h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.job-categories-area .cat-details h4 a {
+    color: #333333;
+}
+
+.job-categories-area .cat-details h4 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 300;
+}
+
+.footer-bottom-area {
+    padding: 15px;
+    background: #1C2733;
+    border-top: 1px solid #27333F;
+    flex-shrink: 0;
+
+}
+
+.footer-bottom-area p {
+    margin: 0;
+    padding: 0;
+    color: #96a4b3;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-bottom-area p a {
+    color: #27AE60;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    -webkit-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+    color: #27AE60;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+.about-content-area {
+    background: #F6F7F9;
+}
+
+@media (max-width: 767px) {
+    .about-content-area .about-details {
+        margin-bottom: 30px;
+    }
+}
+
+.about-content-area .about-details .image img {
+    width: 60px;
+    height: 60px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .about-content-area .about-details .image img {
+        width: 50px;
+    }
+}
+
+.about-content-area .about-details .about-avata {
+    margin-top: 20px;
+}
+
+.about-content-area .about-details .about-avata .image {
+    float: left;
+}
+
+.about-content-area .about-details .about-avata .content {
+    float: left;
+    padding-left: 30px;
+}
+
+.about-content-area .about-details .about-avata .signature {
+    margin-top: 20px;
+}
+
+.about-content-area .about-details .blockqoute-icon {
+    position: relative;
+    padding: 30px;
+}
+
+@media (max-width: 767px) {
+    .about-content-area .about-details .blockqoute-icon {
+        padding: 15px;
+    }
+}
+
+.about-content-area .about-details .blockqoute-icon:before {
+    font-size: 70px;
+    content: "\f10d";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1.0;
+    color: rgba(39, 174, 96, 0.1);
+}
+
+.about-content-area .about-details .blockqoute-icon:after {
+    font-size: 70px;
+    content: "\f10e";
+    font-family: 'FontAwesome';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    line-height: 1.0;
+    color: rgba(39, 174, 96, 0.1);
+}
+
+.about-content-area .call-back h2 {
+    font-size: 30px;
+    color: #333333;
+}
+
+.about-content-area .call-back form {
+    background: #27ae60;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+    .about-content-area .call-back form {
+        padding: 15px;
+    }
+}
+
+.about-content-area .call-back p .title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.about-content-area .call-back input, .about-content-area .call-back textarea, .about-content-area .call-back .select2-selection--single {
+    width: 100%;
+    outline: 0;
+    padding: 6px 25px 6px 15px;
+    height: auto;
+    border: 0;
+    border-radius: 4px;
+}
+
+.about-content-area .call-back .select2-selection__rendered {
+    padding: 0;
+}
+
+.about-content-area .call-back button {
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 30px;
+    width: 100%;
+}
+
+.about-content-area .call-back button:hover {
+    background-color: #fff;
+    color: #27AE60;
+    border-color: #fff;
+}
+
+.about-content-area .right-text h3 {
+    font-size: 22px;
+    color: #333333;
+}
+
+.about-content-area .right-text h3 span {
+    display: block;
+    font-size: 14px;
+    margin-top: 5px;
+    font-weight: 300;
+}
+
+.title h4 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+.title h4 a {
+    color: #333333;
+}
+
+.title h4 a:hover {
+    color: #27AE60;
+}
+
+.how-work-wrapper .title h3 {
+    font-size: 22px;
+    color: #333333;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+
+.job-browse-area .title h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.job-browse-area .title h2 span {
+    color: #27AE60;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .job-browse-area .title h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .job-browse-area .title h2 {
+        font-size: 24px;
+    }
+}
+
+.about-content-area .call-back p .title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.slider-btn .buttonfx {
+    padding: 0 5px;
+}
+
+.right-sidebar .sidebar-widget .buttonfx {
+    padding: 5px 20px;
+}
+
+.right-sidebar .sidebar-widget .buttonfx:hover {
+    background-color: #198647;
+}
+
+.not-found .buttonfx {
+    margin-top: 15px !important;
+}
+
+.buttonfx {
+    outline: none;
+    border: none;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    text-align: center;
+}
+
+.buttonfx a {
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}

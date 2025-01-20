@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="Flask">
+    <option name="enabled" value="true" />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/application" />
+        <option value="$MODULE_DIR$/application/exporter" />
+        <option value="$MODULE_DIR$/application/importer" />
+        <option value="$MODULE_DIR$/application/index" />
+        <option value="$MODULE_DIR$/application/updater" />
+      </list>
+    </option>
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/application/templates" />
+        <option value="$MODULE_DIR$/application/templates/index" />
+        <option value="$MODULE_DIR$/application/templates/updater" />
+      </list>
+    </option>
+  </component>
+</module>
